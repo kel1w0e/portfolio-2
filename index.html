@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-registration">
+        <form action="#" method="POST">
+            <h1>Contact form</h1>
+            <br>
+            <p>Please fill in your in information and we'll be sending your order</p>
+            <br>
+            <label class="label-name">Your name
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+            </label>
+            <br>
+            <label class="label-email">Your email
+                <input type="email" name="email" id="email" placeholder="example@gmail.com">
+            </label>
+            <br>
+            <label class="label-phone">Phone*
+                <input type="text" placeholder="+000" maxlength="4">
+                <input type="text" placeholder="00000" maxlength="5">
+                <input type="text" placeholder="0000" maxlength="4">
+            </label>
+            <br>
+            <label class="label-message-subject">Message subject*
+                <select name="message-subject" id="message-subject">
+                    <option value="Other">Other</option>
+                    <option value="Item1">Item 1</option>
+                    <option value="Item2">Item 2</option>
+                </select>
+            </label>
+            <br>
+            
+            <label class="label-message">Message*
+                <textarea name="message" id="message"></textarea>
+            </label>
+            <hr>
+            <input type="submit" value="SUBMIT FORM" class="btn">
+            <div class="clear"></div>
+        </form>
+    </div>
+</body>
+</html>

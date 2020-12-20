@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url(./source/background.jpg);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.form-registration {
+    width: 60%;
+    margin: 50px auto;
+    color: white;
+    padding: 47px;
+    box-shadow: 0px 0px 15px 5px black;
+}
+
+input, select {
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: gainsboro;
+}
+
+.label-name > input:first-child {
+    width: 350px;
+    margin-left: 100px;
+}
+
+.label-name > input:last-child {
+    width: 350px;
+    margin-left: 20px;
+}
+
+.label-email > input {
+    width: 725px;
+    margin-top: 10px;
+    margin-left: 101px;
+}
+
+.label-phone > input:first-child {
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 124px;
+}
+
+.label-phone > input:nth-child(2) {
+    width: 170px;
+    margin-left: 20px;
+}
+
+.label-phone > input:last-child {
+    width: 337px;
+    margin-left: 20px;
+}
+
+.label-message-subject > select {
+    width: 725px;
+    margin-left: 49px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.label-message > textarea {
+    width: 725px;
+    max-width: 725px;
+    min-width: 725px;
+    margin-top: 10px;
+    margin-left: 107px;
+    min-height: 100px;
+    max-height: 100px;
+}
+hr {
+    margin-top: 15px;
+}
+
+.btn {
+    border: 2px solid #E6E9E9;
+    background: transparent;
+    float: right;
+    margin-top: 10px;
+    width: 725px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
